@@ -36,7 +36,7 @@ Api authorisation is not considered.
 
 Api documentation is not done. 
 
-I had to plan to do an event driven development for example, when a property is created, there will be an event fired and an event listener will send email to a property manager. Did not do it due to time constrains.
+I had plan to do an event driven development for example, when a property is created, there will be an event fired and an event listener will send email to a property manager. Did not do it due to time constrains.
 
 
 # Lumen PHP Framework
