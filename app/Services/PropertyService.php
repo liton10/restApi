@@ -29,6 +29,7 @@ class PropertyService
         $propertyAnalytics = Property::find($id)->propertyAnalytics;
 
         if (!count($propertyAnalytics)) {
+            // Throwing error for exceptions.
             throw new Exception("No property analytics found for id ".$id, 404);
         }
 
