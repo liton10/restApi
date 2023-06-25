@@ -53,7 +53,7 @@ class PropertyService
         // Generating guid for the property
         $data['guid'] = DataHelper::getUuid();
         try {
-            Log::info("Adding new property");
+            Log::info("Adding new property.");
             Property::Create($data);
         } catch (\Exception $e) {
             throw new Exception("Property could not be created ". $e->getMessage());
